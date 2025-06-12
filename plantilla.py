@@ -1,3 +1,5 @@
+
+#https://g.co/gemini/share/f9ae9ede5500
 import tensorflow as tf
 
 class DownBlock(tf.keras.Model):
