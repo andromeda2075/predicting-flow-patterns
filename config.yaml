@@ -1,0 +1,24 @@
+### File: config.yaml
+data:
+  path_directory: "/home/guiomar/Desktop/CODES/predicting-flow-patterns"
+  inp_path: "/home/guiomar/Desktop/CODES/predicting-flow-patterns/harmonics_lid_driven_cavity_X.npz"
+  out_path: "/home/guiomar/Desktop/CODES/predicting-flow-patterns/harmonics_lid_driven_cavity_Y.npz"
+  ntrain : 0.3
+  ntest  : 0.5
+  batch_size: 10
+
+model:
+  img_width : 256   
+  img_height : 256
+  channel  : 3
+
+training:
+  LR: 0.001
+  DECAY_RATE: 0.04
+  epochs: 70
+  patience: 10
+
+save:
+  save_in: "/home/guiomar/Desktop/CODES/predicting-flow-patterns"
+
+
