@@ -1,0 +1,26 @@
+dir: 
+  base_path: '/home/sade06cy/predicting-flow-patterns/New_Experiment'
+  save_results: '/home/sade06cy/predicting-flow-patterns/New_Experiment/Results_training'
+  csv: '/home/sade06cy/predicting-flow-patterns/New_Experiment/dataset_master.csv'
+
+hiperparameters:
+  epochs: 200
+  patience: 15
+  lr_init: 0.001
+  decay_rate: 0.04
+  lambda_weight: 0.9
+  batch_size: 10
+
+split:
+  test: 0.10
+  val: 0.2222
+
+dim:
+  w: 256   
+  h: 64   
+  c: 1
+
+model: 'U_net_Mlp'
+
+
+
