@@ -1,0 +1,7 @@
+The files indicate the following:
+
+conectar.sh Connecting to the server from my local machine to read files.
+u_net_architecture.py U_NET network architecture with MLP
+config.yaml Hyperparameters
+train_model: Loss and callbacks are defined for training
+prediction.ipynb : results of predictions are showed
